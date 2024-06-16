@@ -109,7 +109,7 @@ def create_app_layout() -> pn.Column:
     model_config_column = create_model_config_column()
 
     app_header = pn.pane.Markdown(
-        "# Mistral API Simple Client - [github](https://github.com/rogerkibbe/simple-mistral-api-client)",
+        "# Mistral API Simple Client - [github](https://github.com/rogerkibbe/unparsed-2024-talk)",
         align="center"
     )
 
