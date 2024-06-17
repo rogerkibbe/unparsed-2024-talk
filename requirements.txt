@@ -1,0 +1,6 @@
+mistralai
+pandas
+pyarrow
+fastparquet
+load_dotenv
+panel
