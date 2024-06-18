@@ -17,9 +17,9 @@ client = MistralAsyncClient(api_key=api_key)
 
 # Model configuration options
 available_models = [
-    ("Open Mistral 7B", "open-mistral-7b"),
     ("BOFH Mistral", "ft:open-mistral-7b:c32c2392:20240613:ce61015d"),
     ("Open Mistral Mixtral-8x7B", "open-mixtral-8x7b"),
+    ("Open Mistral 7B", "open-mistral-7b"),
     ("Mistral Small", "mistral-small-latest"),
     ("Mistral Medium", "mistral-medium-latest"),
     ("Mistral Large", "mistral-large-latest")
@@ -109,7 +109,7 @@ def create_app_layout() -> pn.Column:
     model_config_column = create_model_config_column()
 
     app_header = pn.pane.Markdown(
-        "# Mistral API Simple Client - [github](https://github.com/rogerkibbe/unparsed-2024-talk)",
+        "# Mistral BOFH Sample Client - [github](https://github.com/rogerkibbe/unparsed-2024-talk)",
         align="center"
     )
 
