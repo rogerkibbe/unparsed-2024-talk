@@ -1,4 +1,4 @@
-# Unparsed 2024 Talk
+# Roger Kibbe's Unparsed 2024 Talk
 
 Welcome to the repository for the "Unparsed 2024 Talk" by Roger Kibbe. This repository contains all the materials and resources for the presentation delivered at the Unparsed 2024 conference.
 
@@ -61,7 +61,11 @@ The fine-tuning code is located in the [mistral_finetune.ipynb](mistral_finetune
 
 The fine-tuning data is IT support Q&A for a [Bastard Operator from Hell](https://en.wikipedia.org/wiki/Bastard_Operator_From_Hell) type chatbot. The data was created by Anthropic's Claude and hand edited.
 
-Both [cli_compare.py](cli_compare.py) and [gui_client.py](gui_client.py) are python panel apps. To run them:
+[gui_client.py](gui_client.py) is a python panel app. To run:
 ```
 panel serve [file name]
+```
+[cli_compare.py](cli_compare.py) is a simple command line tool to compare the outputs of the BOFH fine-tuned model and the base Mistral 7B Model. To run:
+```
+python cli_compare.py
 ```
